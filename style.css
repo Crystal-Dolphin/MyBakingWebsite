@@ -1,0 +1,53 @@
+body {
+  color: white;
+}
+body {
+  background-image: url("huebert-world-hD6-3TKxFkY-unsplash.jpg");
+  background-repeat: no repeat;
+  background-size: 100px 300px;
+  
+}
+hr {
+    height: 1px;
+    border: none;
+    background-color: white;
+}
+ul {
+    list-style-type: circle;
+}
+h3 {
+  font-size:20px;
+  font-family:Arial, Helvetica;
+}
+li {
+  font-size:15px;
+  font-family:Arial, Helvetica;
+}
+h1{
+  font-size:50px;
+  font-family:Arial, Helvetica;
+}
+nav ul{
+  background-color:gray;
+  border-style:solid;
+  Border-color:white;
+  border-width:1px;
+  padding:8px;
+  border-radius:10px;
+}
+nav ul li{
+  list-style-type:none;
+  display:inline;
+  margin-right:10px;
+  margin-left:10px;
+  color:white;
+  font-family:Arial, Helvetica;
+}
+nav ul li a{
+  text-decoration:none;
+  color:black;
+}
+p{
+  font-size:20px;
+  font-family:Arial, Helvetica;
+}
