@@ -50,6 +50,8 @@ nav ul li{
   margin-left:10px;
   color:white;
   font-family:Arial, Helvetica;
+  margin-left:auto;
+  margin-right:auto;
 }
 nav ul li a{
   text-decoration:none;
