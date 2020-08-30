@@ -2,29 +2,41 @@ body {
   color: white;
 }
 body {
-  background-image: url("back-we-go-1BD1VplRR64-unsplash.jpg");
+ background-image: url("back-we-go-1BD1VplRR64-unsplash.jpg");
   background-size: 1500px;
+  background-color:#732F20;
   
 }
 hr {
     height: 1px;
     border: none;
     background-color: white;
+    position:relative;
+    top:50px;
 }
 ul {
     list-style-type: circle;
    border: double;
     border-width: 3px;
     font-family:Arial, Helvetica;
+     position:relative;
+  top:50px;
+  text-align:center;
 }
 ol {
   font-family:Arial, Helvetica;
    border: double;
     border-width: 3px;
+  position:relative;
+  top:50px;
+  text-align:center;
 }
 h3 {
   font-size:20px;
   font-family:Arial, Helvetica;
+    position:relative;
+  top:50px;
+  text-align:center;
 }
 li {
   font-size:15px;
@@ -33,31 +45,17 @@ li {
 h1{
   font-size:50px;
   font-family:Arial, Helvetica;
-}
-nav ul{
-  background-color:gray;
-  border-style:solid;
-  Border-color:white;
-  border-width:1px;
-  padding:8px;
-  border-radius:10px;
-}
-nav ul li{
-  list-style-type:none;
-  display:inline;
-  margin-right:10px;
-  margin-left:10px;
-  color:white;
-  font-family:Arial, Helvetica;
-}
-nav ul li a{
-  text-decoration:none;
-  color:black;
+  position: Relative;
+  top:50px;
+  text-align:center;
 }
 
 p{
   font-size:20px;
   font-family:Arial, Helvetica;
+  position:relative;
+  top:50px;
+  text-align:center;
 }
 img{
   border-radius: 8px;
@@ -67,4 +65,53 @@ img{
   max-width: 100%;
   min-width: 300px;
   height: auto;
+  position:relative;
+  top:50px;
+  
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 24px 30px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0;
+  font-family: Arial, Helvetica;
+  background-color: #732F20;
+  border-radius: 8px;
+  background-image:url("Untitled presentation (3).jpg");
+  background-size:70px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #260B0B;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius:8px;
+}
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-family: Arial, Helvetica;
+  border-radius:8px;
+}
+.dropdown-content a:hover {
+  background-color: #BF5D39;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
 }
